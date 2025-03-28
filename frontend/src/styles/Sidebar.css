@@ -1,0 +1,135 @@
+/* Sidebar Styling */
+.sidebar {
+  width: 215px;
+  height: 100vh;
+  background: linear-gradient(135deg, #FF6A00 0%, #C91E00 100%); /* Even more vibrant */
+  color: #FFF2E0; /* Lighter Cream */
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 4px 0 20px rgba(0, 0, 0, 0.4);
+  border-right: 2px solid rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px); /* Enhanced Glassmorphism */
+  z-index: 1000;
+}
+
+/* Sidebar Logo */
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.logo {
+  width: 250px !important;
+  height: auto;
+  object-fit: contain;
+  filter: drop-shadow(0px 2px 6px rgba(255, 150, 70, 0.8)); /* Stronger Glow */
+}
+
+/* Sidebar Links */
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar ul li {
+  margin: 18px 0;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: #FFF2E0; /* Softer Cream */
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 12px 20px;
+  display: flex;
+  align-items: center;
+  border-radius: 12px;
+  transition: all 0.3s ease-in-out;
+  background: rgba(255, 102, 0, 0.3); /* More color instead of white */
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Gradient Glow Effect */
+.sidebar ul li a::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(120deg, rgba(255, 180, 70, 0.5), transparent);
+  transition: left 0.4s ease-in-out;
+}
+
+/* Hover Effect */
+.sidebar ul li a:hover {
+  background: linear-gradient(120deg, #FF8600, #C71A00); /* Vibrant transition */
+  color: #FFFFFF; /* Pure White for better contrast */
+  transform: translateX(8px);
+  box-shadow: 0px 5px 20px rgba(209, 47, 0, 0.7);
+  border: 2px solid rgba(255, 255, 255, 0.4); /* Stronger Outline */
+}
+
+.sidebar ul li a:hover::before {
+  left: 100%;
+}
+
+/* Icons */
+.icon {
+  margin-right: 12px;
+  width: 24px;
+  height: 24px;
+  color: #FFF2E0; /* Match text color */
+  filter: drop-shadow(0px 2px 6px rgba(255, 255, 255, 0.6));
+}
+
+/* Sidebar Animation */
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.sidebar {
+  animation: slideIn 0.4s ease-in-out;
+}
+
+/* Responsive Sidebar */
+@media (max-width: 768px) {
+  .sidebar {
+    width: 200px;
+  }
+
+  .sidebar ul li a {
+    font-size: 1rem;
+  }
+}
+/* Sidebar Links - Darker Muted Tones */
+.sidebar ul li:nth-child(1) a { background: #4A4A4A; } /* Dark Gray */
+.sidebar ul li:nth-child(2) a { background: #3E5C76; } /* Muted Steel Blue */
+.sidebar ul li:nth-child(3) a { background: #406343; } /* Deep Moss Green */
+.sidebar ul li:nth-child(4) a { background: #735F3D; } /* Faded Brown */
+.sidebar ul li:nth-child(5) a { background: #5A3E47; } /* Dark Wine */
+.sidebar ul li:nth-child(6) a { background: #4E3A5A; } /* Soft Grape */
+.sidebar ul li:nth-child(7) a { background: #3D3D3D; } /* Charcoal */
+
+/* Hover Effect (Subtle Glow) */
+.sidebar ul li a:hover {
+  color: #FFFFFF; /* Pure White */
+  transform: translateX(8px);
+  box-shadow: 0px 5px 20px rgba(255, 255, 255, 0.15);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+}

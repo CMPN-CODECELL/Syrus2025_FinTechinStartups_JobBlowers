@@ -1,0 +1,153 @@
+/* Import Roboto Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+h2 {
+  font-size: 26px;
+  color: #333;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.inpcont{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+/* Input, Textarea, and Dropdown Styling */
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+input,
+textarea,
+select {
+  width: 85%;
+  max-width: 500px;
+  padding: 14px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  transition: 0.3s ease-in-out;
+  background: #f9f9f9;
+  outline: none;
+  box-shadow: inset 0px 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+input[type="file"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+/* Input focus effects */
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: #007bff;
+  background: white;
+  box-shadow: 0px 0px 8px rgba(0, 123, 255, 0.3);
+}
+
+/* Textarea */
+textarea {
+  resize: vertical;
+  height: 100px;
+}
+
+/* Dropdown */
+select {
+  cursor: pointer;
+  appearance: none; /* Removes default browser styling */
+  background: white url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18" fill="%23007bff"><path d="M7 10l5 5 5-5z"/></svg>') no-repeat right 12px center;
+  background-size: 14px;
+  padding-right: 40px;
+}
+
+/* Button styles */
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+button {
+  padding: 12px 18px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+  font-family: 'Roboto', sans-serif;
+  justify-self: center;
+}
+.intbut,.canbut,.addbut{
+  width: 600px;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+/* Video Container */
+.video-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+video {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 8px;
+  border: 2px solid #007bff;
+}
+
+.link-button {
+  margin-top: 20px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.link-button button {
+  background: #28a745;
+}
+
+.link-button button:hover {
+  background: #1e7e34;
+}
+
+/* Add any additional custom styles here */
