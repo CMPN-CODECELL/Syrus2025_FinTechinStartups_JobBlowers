@@ -21,8 +21,24 @@ Banks & NBFCs – Financial institutions interested in offering AI-driven loan r
 
 Financial Analysts & Advisors – Professionals looking for AI-powered tools to assess startup financial health and creditworthiness.
 
+# Problems They Face 
+Startups & SMBs:
 
+Struggle with financial planning, fluctuating revenue, and unclear loan terms.
+Difficulty finding the right investors and securing funding.
+Poor cash flow management and inefficient investment strategies.
+Inventory mismanagement and lack of real-time market insights.
 
+Investors:
+Lack of financial transparency in startup pitches.
+Difficulty assessing risk, cash flow, and growth potential.
+Overwhelming number of startups without clear investment insights.
+
+Banks & NBFCs:
+Inefficient loan processing and high risk of defaults.
+Lack of AI-driven tools to assess startup creditworthiness.
+
+ # Implementation 
 # UPTIQ AI Agent - Financial Analysis & Investment Advisor For SMB's
 
 This Finsight AI agent is designed to process financial documents, analyze startup data, match investors, and provide financial insights using UPTIQ AI Workbench. 
