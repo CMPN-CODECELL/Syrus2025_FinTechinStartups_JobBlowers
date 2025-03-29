@@ -24,18 +24,18 @@ Financial Analysts & Advisors – Professionals looking for AI-powered tools to 
 # Problems They Face 
 Startups & SMBs:
 
-Struggle with financial planning, fluctuating revenue, and unclear loan terms.
-Difficulty finding the right investors and securing funding.
-Poor cash flow management and inefficient investment strategies.
+Struggle with financial planning, fluctuating revenue, and unclear loan terms,
+Difficulty finding the right investors and securing funding,
+Poor cash flow management and inefficient investment strategies,
 Inventory mismanagement and lack of real-time market insights.
 
 Investors:
-Lack of financial transparency in startup pitches.
-Difficulty assessing risk, cash flow, and growth potential.
+Lack of financial transparency in startup pitches,
+Difficulty assessing risk, cash flow, and growth potential,
 Overwhelming number of startups without clear investment insights.
 
 Banks & NBFCs:
-Inefficient loan processing and high risk of defaults.
+Inefficient loan processing and high risk of defaults,
 Lack of AI-driven tools to assess startup creditworthiness.
 
  # Implementation 
