@@ -5,6 +5,8 @@ Old Video Link - https://www.youtube.com/watch?v=H3w_uej4Zi8
 
 Challenges We Faced During our time in Uptiq AI WorkBench Doc link - https://docs.google.com/document/d/1Z3XwK1-BHcxPAWj-T-CdJDOwcl7FLI875ZaB0G_BQiQ/edit?tab=t.0
 
+PPT Canva Link - https://www.canva.com/design/DAGi_NEg1uE/S0fNdIHB5BWz4FmBK_WUdA/edit?utm_content=DAGi_NEg1uE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
 # UPTIQ AI Agent - Financial Analysis & Investment Advisor
 
 This Finsight AI agent is designed to process financial documents, analyze startup data, match investors, and provide financial insights using UPTIQ AI Workbench. 
