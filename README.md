@@ -1,6 +1,8 @@
 # JobBlowers_Syrus25
 Final YT Demo Video Link - https://www.youtube.com/watch?v=jFWeJsk8u98
 
+Output Documentaion Of Uptiq AI Workbench - https://docs.google.com/document/d/1eV4jCNXxcWAJ3AhP4BEX3is2dvxyL1PSubW7CGG9jiI/edit?usp=sharing
+
 Old Video Link - https://www.youtube.com/watch?v=H3w_uej4Zi8
 
 Challenges We Faced During our time in Uptiq AI WorkBench Doc link - https://docs.google.com/document/d/1Z3XwK1-BHcxPAWj-T-CdJDOwcl7FLI875ZaB0G_BQiQ/edit?tab=t.0
