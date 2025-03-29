@@ -1,4 +1,7 @@
 # JobBlowers_Syrus25
+
+# LINKS
+
 Final YT Demo Video Link - https://www.youtube.com/watch?v=jFWeJsk8u98
 
 Output Documentaion Of Uptiq AI Workbench - https://docs.google.com/document/d/1eV4jCNXxcWAJ3AhP4BEX3is2dvxyL1PSubW7CGG9jiI/edit?usp=sharing
@@ -8,6 +11,17 @@ Old Video Link - https://www.youtube.com/watch?v=H3w_uej4Zi8
 Challenges We Faced During our time in Uptiq AI WorkBench Doc link - https://docs.google.com/document/d/1Z3XwK1-BHcxPAWj-T-CdJDOwcl7FLI875ZaB0G_BQiQ/edit?tab=t.0
 
 PPT Canva Link - https://www.canva.com/design/DAGi_NEg1uE/S0fNdIHB5BWz4FmBK_WUdA/edit?utm_content=DAGi_NEg1uE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
+# Target Audience:
+Startups & SMB Owners – Entrepreneurs struggling with financial planning, funding, and investment optimization.
+
+Investors (Angel Investors, VCs, Private Equity Firms) – Individuals and firms seeking data-driven insights into startup financials to make informed investment decisions.
+
+Banks & NBFCs – Financial institutions interested in offering AI-driven loan recommendations to eligible startups.
+
+Financial Analysts & Advisors – Professionals looking for AI-powered tools to assess startup financial health and creditworthiness.
+
+
 
 # UPTIQ AI Agent - Financial Analysis & Investment Advisor For SMB's
 
